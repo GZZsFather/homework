@@ -1,0 +1,13 @@
+business requirements:
+  This software will allow users to estimate the price of the house via his inputs, including location, year of construction,
+    environments nearby, etc.
+user requirements:
+  Check the price of a certain house;
+  Get a series of houses fit his needs;
+  Calculate how much he will pay for his loan every month;
+
+
+Non-functional requirements:
+Usability
+Flexibility
+Reliability

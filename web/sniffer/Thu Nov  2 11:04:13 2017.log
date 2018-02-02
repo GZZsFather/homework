@@ -1,0 +1,842 @@
+###[ Ethernet ]### 
+  dst       = 01:00:5e:00:00:fc
+  src       = 0c:d2:92:76:62:f4
+  type      = 0x800
+###[ IP ]### 
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 50
+     id        = 24558
+     flags     = 
+     frag      = 0L
+     ttl       = 1
+     proto     = udp
+     chksum    = 0x1f08
+     src       = 10.95.79.106
+     dst       = 224.0.0.252
+     \options   \
+###[ UDP ]### 
+        sport     = 61116
+        dport     = llmnr
+        len       = 30
+        chksum    = 0x6994
+###[ Link Local Multicast Node Resolution - Query ]### 
+           id        = 32468
+           qr        = 0L
+           opcode    = QUERY
+           c         = 0L
+           tc        = 0L
+           z         = 0L
+           rcode     = ok
+           qdcount   = 1
+           ancount   = 0
+           nscount   = 0
+           arcount   = 0
+           \qd        \
+            |###[ DNS Question Record ]### 
+            |  qname     = 'wpad.'
+            |  qtype     = A
+            |  qclass    = IN
+           an        = None
+           ns        = None
+           ar        = None
+
+None
+###[ Ethernet ]### 
+  dst       = 01:00:5e:00:00:fc
+  src       = 0c:d2:92:76:62:f4
+  type      = 0x800
+###[ IP ]### 
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 50
+     id        = 24572
+     flags     = 
+     frag      = 0L
+     ttl       = 1
+     proto     = udp
+     chksum    = 0x1efa
+     src       = 10.95.79.106
+     dst       = 224.0.0.252
+     \options   \
+###[ UDP ]### 
+        sport     = 61116
+        dport     = llmnr
+        len       = 30
+        chksum    = 0x6994
+###[ Link Local Multicast Node Resolution - Query ]### 
+           id        = 32468
+           qr        = 0L
+           opcode    = QUERY
+           c         = 0L
+           tc        = 0L
+           z         = 0L
+           rcode     = ok
+           qdcount   = 1
+           ancount   = 0
+           nscount   = 0
+           arcount   = 0
+           \qd        \
+            |###[ DNS Question Record ]### 
+            |  qname     = 'wpad.'
+            |  qtype     = A
+            |  qclass    = IN
+           an        = None
+           ns        = None
+           ar        = None
+
+None
+###[ Ethernet ]### 
+  dst       = 14:14:4b:7d:49:25
+  src       = 48:d7:05:d2:38:67
+  type      = 0x800
+###[ IP ]### 
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 40
+     id        = 0
+     flags     = DF
+     frag      = 0L
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0x4e06
+     src       = 10.95.68.130
+     dst       = 222.199.191.33
+     \options   \
+###[ TCP ]### 
+        sport     = 55012
+        dport     = https
+        seq       = 818924007
+        ack       = 628644421
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = RA
+        window    = 8191
+        chksum    = 0x4ff3
+        urgptr    = 0
+        options   = {}
+
+None
+###[ Ethernet ]### 
+  dst       = 01:00:5e:00:00:fb
+  src       = a0:3b:e3:0f:d0:79
+  type      = 0x800
+###[ IP ]### 
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 98
+     id        = 29071
+     flags     = 
+     frag      = 0L
+     ttl       = 255
+     proto     = udp
+     chksum    = 0x1113
+     src       = 10.95.77.142
+     dst       = 224.0.0.251
+     \options   \
+###[ UDP ]### 
+        sport     = mdns
+        dport     = mdns
+        len       = 78
+        chksum    = 0x849b
+###[ DNS ]### 
+           id        = 0
+           qr        = 0L
+           opcode    = QUERY
+           aa        = 0L
+           tc        = 0L
+           rd        = 0L
+           ra        = 0L
+           z         = 0L
+           ad        = 0L
+           cd        = 0L
+           rcode     = ok
+           qdcount   = 1
+           ancount   = 0
+           nscount   = 0
+           arcount   = 1
+           \qd        \
+            |###[ DNS Question Record ]### 
+            |  qname     = '_sleep-proxy._udp.local.'
+            |  qtype     = PTR
+            |  qclass    = 32769
+           an        = None
+           ns        = None
+           \ar        \
+            |###[ DNS OPT Resource Record ]### 
+            |  rrname    = '.'
+            |  type      = OPT
+            |  rclass    = 1440
+            |  extrcode  = 0
+            |  version   = 0
+            |  z         = 4500L
+            |  rdlen     = 18
+            |  \rdata     \
+            |   |###[ DNS EDNS0 TLV ]### 
+            |   |  optcode   = Reserved
+            |   |  optlen    = 14
+            |   |  optdata   = '\x00\xff\xa2;\xe3\x0f\xd0y\xa0;\xe3\x0f\xd0y'
+
+None
+###[ Ethernet ]### 
+  dst       = ff:ff:ff:ff:ff:ff
+  src       = 14:14:4b:7d:49:25
+  type      = 0x800
+###[ IP ]### 
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 328
+     id        = 12924
+     flags     = 
+     frag      = 0L
+     ttl       = 64
+     proto     = udp
+     chksum    = 0xfcc9
+     src       = 10.95.64.1
+     dst       = 255.255.255.255
+     \options   \
+###[ UDP ]### 
+        sport     = bootps
+        dport     = bootpc
+        len       = 308
+        chksum    = 0x0
+###[ BOOTP ]### 
+           op        = BOOTREPLY
+           htype     = 1
+           hlen      = 6
+           hops      = 0
+           xid       = 4272163698
+           secs      = 0
+           flags     = B
+           ciaddr    = 0.0.0.0
+           yiaddr    = 0.0.0.0
+           siaddr    = 0.0.0.0
+           giaddr    = 0.0.0.0
+           chaddr    = '\x04R\xf3U\x82\xb8\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+           sname     = '\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+           file      = '\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+           options   = 'c\x82Sc'
+###[ DHCP options ]### 
+              options   = [message-type=nak server_id=10.95.64.1 end pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad]
+
+None
+###[ Ethernet ]### 
+  dst       = 01:00:5e:00:00:fb
+  src       = a0:3b:e3:0f:d0:79
+  type      = 0x800
+###[ IP ]### 
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 98
+     id        = 45331
+     flags     = 
+     frag      = 0L
+     ttl       = 255
+     proto     = udp
+     chksum    = 0xd18e
+     src       = 10.95.77.142
+     dst       = 224.0.0.251
+     \options   \
+###[ UDP ]### 
+        sport     = mdns
+        dport     = mdns
+        len       = 78
+        chksum    = 0x851b
+###[ DNS ]### 
+           id        = 0
+           qr        = 0L
+           opcode    = QUERY
+           aa        = 0L
+           tc        = 0L
+           rd        = 0L
+           ra        = 0L
+           z         = 0L
+           ad        = 0L
+           cd        = 0L
+           rcode     = ok
+           qdcount   = 1
+           ancount   = 0
+           nscount   = 0
+           arcount   = 1
+           \qd        \
+            |###[ DNS Question Record ]### 
+            |  qname     = '_sleep-proxy._udp.local.'
+            |  qtype     = PTR
+            |  qclass    = IN
+           an        = None
+           ns        = None
+           \ar        \
+            |###[ DNS OPT Resource Record ]### 
+            |  rrname    = '.'
+            |  type      = OPT
+            |  rclass    = 1440
+            |  extrcode  = 0
+            |  version   = 0
+            |  z         = 4500L
+            |  rdlen     = 18
+            |  \rdata     \
+            |   |###[ DNS EDNS0 TLV ]### 
+            |   |  optcode   = Reserved
+            |   |  optlen    = 14
+            |   |  optdata   = '\x00\xff\xa2;\xe3\x0f\xd0y\xa0;\xe3\x0f\xd0y'
+
+None
+###[ Ethernet ]### 
+  dst       = 01:00:5e:00:00:fc
+  src       = 44:85:00:ab:bc:2e
+  type      = 0x800
+###[ IP ]### 
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 52
+     id        = 32355
+     flags     = 
+     frag      = 0L
+     ttl       = 1
+     proto     = udp
+     chksum    = 0x4a
+     src       = 10.95.79.177
+     dst       = 224.0.0.252
+     \options   \
+###[ UDP ]### 
+        sport     = 55051
+        dport     = llmnr
+        len       = 32
+        chksum    = 0xd2e7
+###[ Link Local Multicast Node Resolution - Query ]### 
+           id        = 42899
+           qr        = 0L
+           opcode    = QUERY
+           c         = 0L
+           tc        = 0L
+           z         = 0L
+           rcode     = ok
+           qdcount   = 1
+           ancount   = 0
+           nscount   = 0
+           arcount   = 0
+           \qd        \
+            |###[ DNS Question Record ]### 
+            |  qname     = 'isatap.'
+            |  qtype     = A
+            |  qclass    = IN
+           an        = None
+           ns        = None
+           ar        = None
+
+None
+###[ Ethernet ]### 
+  dst       = 01:00:5e:00:00:fc
+  src       = 44:85:00:ab:bc:2e
+  type      = 0x800
+###[ IP ]### 
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 52
+     id        = 32356
+     flags     = 
+     frag      = 0L
+     ttl       = 1
+     proto     = udp
+     chksum    = 0x49
+     src       = 10.95.79.177
+     dst       = 224.0.0.252
+     \options   \
+###[ UDP ]### 
+        sport     = 55051
+        dport     = llmnr
+        len       = 32
+        chksum    = 0xd2e7
+###[ Link Local Multicast Node Resolution - Query ]### 
+           id        = 42899
+           qr        = 0L
+           opcode    = QUERY
+           c         = 0L
+           tc        = 0L
+           z         = 0L
+           rcode     = ok
+           qdcount   = 1
+           ancount   = 0
+           nscount   = 0
+           arcount   = 0
+           \qd        \
+            |###[ DNS Question Record ]### 
+            |  qname     = 'isatap.'
+            |  qtype     = A
+            |  qclass    = IN
+           an        = None
+           ns        = None
+           ar        = None
+
+None
+###[ Ethernet ]### 
+  dst       = 01:00:5e:00:00:fb
+  src       = dc:85:de:5f:c2:71
+  type      = 0x800
+###[ IP ]### 
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 85
+     id        = 24752
+     flags     = 
+     frag      = 0L
+     ttl       = 255
+     proto     = udp
+     chksum    = 0x2e78
+     src       = 10.95.65.21
+     dst       = 224.0.0.251
+     \options   \
+###[ UDP ]### 
+        sport     = mdns
+        dport     = mdns
+        len       = 65
+        chksum    = 0x4aaa
+###[ DNS ]### 
+           id        = 0
+           qr        = 0L
+           opcode    = QUERY
+           aa        = 0L
+           tc        = 0L
+           rd        = 0L
+           ra        = 0L
+           z         = 0L
+           ad        = 0L
+           cd        = 0L
+           rcode     = ok
+           qdcount   = 1
+           ancount   = 0
+           nscount   = 0
+           arcount   = 0
+           \qd        \
+            |###[ DNS Question Record ]### 
+            |  qname     = '4c1b0574._sub._apple-mobdev2._tcp.local.'
+            |  qtype     = PTR
+            |  qclass    = IN
+           an        = None
+           ns        = None
+           ar        = None
+
+None
+###[ Ethernet ]### 
+  dst       = 01:00:5e:00:00:fb
+  src       = 04:52:f3:55:82:b8
+  type      = 0x800
+###[ IP ]### 
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 118
+     id        = 29710
+     flags     = 
+     frag      = 0L
+     ttl       = 255
+     proto     = udp
+     chksum    = 0x1a18
+     src       = 10.95.65.246
+     dst       = 224.0.0.251
+     \options   \
+###[ UDP ]### 
+        sport     = mdns
+        dport     = mdns
+        len       = 98
+        chksum    = 0xb936
+###[ DNS ]### 
+           id        = 0
+           qr        = 0L
+           opcode    = QUERY
+           aa        = 0L
+           tc        = 0L
+           rd        = 0L
+           ra        = 0L
+           z         = 0L
+           ad        = 0L
+           cd        = 0L
+           rcode     = ok
+           qdcount   = 2
+           ancount   = 0
+           nscount   = 0
+           arcount   = 1
+           \qd        \
+            |###[ DNS Question Record ]### 
+            |  qname     = '_homekit._tcp.local.'
+            |  qtype     = PTR
+            |  qclass    = 32769
+            |###[ DNS Question Record ]### 
+            |  qname     = '_sleep-proxy._udp.local.'
+            |  qtype     = PTR
+            |  qclass    = 32769
+           an        = None
+           ns        = None
+           \ar        \
+            |###[ DNS OPT Resource Record ]### 
+            |  rrname    = '.'
+            |  type      = OPT
+            |  rclass    = 1440
+            |  extrcode  = 0
+            |  version   = 0
+            |  z         = 4500L
+            |  rdlen     = 18
+            |  \rdata     \
+            |   |###[ DNS EDNS0 TLV ]### 
+            |   |  optcode   = Reserved
+            |   |  optlen    = 14
+            |   |  optdata   = '\x00\x97&R\xf3U\x82\xb8\x04R\xf3U\x82\xb8'
+
+None
+###[ Ethernet ]### 
+  dst       = 14:14:4b:7d:49:25
+  src       = 48:d7:05:d2:38:67
+  type      = 0x800
+###[ IP ]### 
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 40
+     id        = 0
+     flags     = DF
+     frag      = 0L
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0x9eb
+     src       = 10.95.68.130
+     dst       = 202.108.23.152
+     \options   \
+###[ TCP ]### 
+        sport     = 55067
+        dport     = https
+        seq       = 2950910879
+        ack       = 3241986421
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = RA
+        window    = 8191
+        chksum    = 0xf7df
+        urgptr    = 0
+        options   = {}
+
+None
+###[ Ethernet ]### 
+  dst       = 14:14:4b:7d:49:25
+  src       = 48:d7:05:d2:38:67
+  type      = 0x800
+###[ IP ]### 
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 40
+     id        = 0
+     flags     = DF
+     frag      = 0L
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0x4e08
+     src       = 10.95.68.130
+     dst       = 222.199.191.31
+     \options   \
+###[ TCP ]### 
+        sport     = 55062
+        dport     = https
+        seq       = 4215056375
+        ack       = 2704386085
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = RA
+        window    = 8183
+        chksum    = 0xddb3
+        urgptr    = 0
+        options   = {}
+
+None
+###[ Ethernet ]### 
+  dst       = 14:14:4b:7d:49:25
+  src       = 48:d7:05:d2:38:67
+  type      = 0x800
+###[ IP ]### 
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 40
+     id        = 0
+     flags     = DF
+     frag      = 0L
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0x4df6
+     src       = 10.95.68.130
+     dst       = 222.199.191.49
+     \options   \
+###[ TCP ]### 
+        sport     = 55051
+        dport     = https
+        seq       = 4284336331
+        ack       = 1883169139
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = RA
+        window    = 8191
+        chksum    = 0xb054
+        urgptr    = 0
+        options   = {}
+
+None
+###[ Ethernet ]### 
+  dst       = 14:14:4b:7d:49:25
+  src       = 48:d7:05:d2:38:67
+  type      = 0x800
+###[ IP ]### 
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 40
+     id        = 0
+     flags     = DF
+     frag      = 0L
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0x4df6
+     src       = 10.95.68.130
+     dst       = 222.199.191.49
+     \options   \
+###[ TCP ]### 
+        sport     = 55050
+        dport     = https
+        seq       = 2703216478
+        ack       = 1364439152
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = RA
+        window    = 8191
+        chksum    = 0x57ef
+        urgptr    = 0
+        options   = {}
+
+None
+###[ Ethernet ]### 
+  dst       = 14:14:4b:7d:49:25
+  src       = 48:d7:05:d2:38:67
+  type      = 0x800
+###[ IP ]### 
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 40
+     id        = 0
+     flags     = DF
+     frag      = 0L
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0x4df6
+     src       = 10.95.68.130
+     dst       = 222.199.191.49
+     \options   \
+###[ TCP ]### 
+        sport     = 55047
+        dport     = https
+        seq       = 721152278
+        ack       = 3377022093
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = RA
+        window    = 8191
+        chksum    = 0xa84b
+        urgptr    = 0
+        options   = {}
+
+None
+###[ Ethernet ]### 
+  dst       = 14:14:4b:7d:49:25
+  src       = 48:d7:05:d2:38:67
+  type      = 0x800
+###[ IP ]### 
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 40
+     id        = 0
+     flags     = DF
+     frag      = 0L
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0x4df6
+     src       = 10.95.68.130
+     dst       = 222.199.191.49
+     \options   \
+###[ TCP ]### 
+        sport     = 55046
+        dport     = https
+        seq       = 1435158796
+        ack       = 2089555065
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = RA
+        window    = 8191
+        chksum    = 0x1a99
+        urgptr    = 0
+        options   = {}
+
+None
+###[ Ethernet ]### 
+  dst       = 14:14:4b:7d:49:25
+  src       = 48:d7:05:d2:38:67
+  type      = 0x800
+###[ IP ]### 
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 40
+     id        = 0
+     flags     = DF
+     frag      = 0L
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0x4df7
+     src       = 10.95.68.130
+     dst       = 222.199.191.48
+     \options   \
+###[ TCP ]### 
+        sport     = 55045
+        dport     = https
+        seq       = 4243587834
+        ack       = 2010193759
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = RA
+        window    = 8191
+        chksum    = 0x331c
+        urgptr    = 0
+        options   = {}
+
+None
+###[ Ethernet ]### 
+  dst       = 14:14:4b:7d:49:25
+  src       = 48:d7:05:d2:38:67
+  type      = 0x800
+###[ IP ]### 
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 40
+     id        = 0
+     flags     = DF
+     frag      = 0L
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0x4df7
+     src       = 10.95.68.130
+     dst       = 222.199.191.48
+     \options   \
+###[ TCP ]### 
+        sport     = 55043
+        dport     = https
+        seq       = 205314467
+        ack       = 1292071133
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = RA
+        window    = 8191
+        chksum    = 0x2679
+        urgptr    = 0
+        options   = {}
+
+None
+###[ Ethernet ]### 
+  dst       = 01:00:5e:00:00:fb
+  src       = 04:52:f3:55:82:b8
+  type      = 0x800
+###[ IP ]### 
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 94
+     id        = 22161
+     flags     = 
+     frag      = 0L
+     ttl       = 255
+     proto     = udp
+     chksum    = 0x37ad
+     src       = 10.95.65.246
+     dst       = 224.0.0.251
+     \options   \
+###[ UDP ]### 
+        sport     = mdns
+        dport     = mdns
+        len       = 74
+        chksum    = 0x159a
+###[ DNS ]### 
+           id        = 0
+           qr        = 0L
+           opcode    = QUERY
+           aa        = 0L
+           tc        = 0L
+           rd        = 0L
+           ra        = 0L
+           z         = 0L
+           ad        = 0L
+           cd        = 0L
+           rcode     = ok
+           qdcount   = 1
+           ancount   = 0
+           nscount   = 0
+           arcount   = 1
+           \qd        \
+            |###[ DNS Question Record ]### 
+            |  qname     = '_homekit._tcp.local.'
+            |  qtype     = PTR
+            |  qclass    = IN
+           an        = None
+           ns        = None
+           \ar        \
+            |###[ DNS OPT Resource Record ]### 
+            |  rrname    = '.'
+            |  type      = OPT
+            |  rclass    = 1440
+            |  extrcode  = 0
+            |  version   = 0
+            |  z         = 4500L
+            |  rdlen     = 18
+            |  \rdata     \
+            |   |###[ DNS EDNS0 TLV ]### 
+            |   |  optcode   = Reserved
+            |   |  optlen    = 14
+            |   |  optdata   = '\x00\x97&R\xf3U\x82\xb8\x04R\xf3U\x82\xb8'
+
+None
+###[ Ethernet ]### 
+  dst       = 01:00:5e:00:00:fb
+  src       = 04:52:f3:55:82:b8
+  type      = 0x800
+###[ IP ]### 
+     version   = 4L
+     ihl       = 6L
+     tos       = 0x0
+     len       = 32
+     id        = 56015
+     flags     = 
+     frag      = 0L
+     ttl       = 1
+     proto     = igmp
+     chksum    = 0x1cb8
+     src       = 10.95.65.246
+     dst       = 224.0.0.251
+     \options   \
+      |###[ IP Option Router Alert ]### 
+      |  copy_flag = 1L
+      |  optclass  = control
+      |  option    = router_alert
+      |  length    = 4
+      |  alert     = router_shall_examine_packet
+###[ Raw ]### 
+        load      = '\x16\x00\t\x04\xe0\x00\x00\xfb'
+###[ Padding ]### 
+           load      = '\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+
+None
